@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com <abbr title="Hyper Text Markup Language">HTML</abbr></h1>
+    <hr>
+   
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia-web">História da Web</a></li>
+            <ol>
+                <li>Primeiros Computadores</li>
+                <li>Internet - Como Surgiu</li>
+            </ol>
+        <li><a href="#clients">O Que São <i>Clients</i></a></li>
+            <ol>
+                <li>Conceito de <i>Client</i> no "linguajar" Web</li>
+                <li>Falando Sobre Navegadores</li>
+                <li>Aplicações Web</li>
+            </ol>
+        <li><a href="#servers">O Que São <i>Servers</i></a></li>
+            <ol>
+                <li>Sobre Servidores</li>
+                <li>Sobre <i>Hardwares</i> e <i>Softwares</i> em Servidores</li>
+                <li>Hospedagem de Sites</li>
+            </ol>
+        <li><a href="#linguagens">Linguagens de Programação</a></li>
+            <ol>
+                <li>O que é Linguagem de Programação</li>
+                <li>Linguagem <i>Server-Side</i></li>
+                <li>Linguagem <i>Client-Side</i></li>
+                <li>Estrutura básica de um HTML</li>
+            </ol>
+        <li><a href="#links">Links de Referências</a></li>
+    </ul>
+    <br>
+
+    <h2 id="historia-web"> História da Web</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <h3>Primeiros Computadores</h3>
+    <p>Na <u>1ª geração</u> de computadores temos o <b>Havard Mark I</b> (1944), <b>Colossus</b> (1946) e <b>ENIAC</b> (1946). Todos imensos, e usavam <u>válvulas</u>.</p>
+    <p>Na <u>2ª geração</u> (1959-1965), houve uma grande evolução com a substuição das válvulas por <b>Transistores</b>, diminuido muito o tamanho do computador.</p>
+    <p>Na <u>3ª geração</u> (1965-1970), foi criado o <b>Circuito Integrado</b>, em substuição ao Transistor, diminuindo ainda mais o tamanho.</p>
+    <p>A <u>4ª geração</u>, marcada a partir de 1971, teve como característica inicial a <b>criação do mouse</b>, pela Apple, e se estende até os dias atuais,
+        com os Smartphones e computadores com multiprocessadores.
+    </p>
+    
+    <h3>Internet - Como Surgiu</h3>
+    <p>Apesar dos conceitos militares por trás da internet surgirem por volta dos anos 50, foi na década de 60, no contexto da polarização mundial
+        causada pela Guerra Fria, entre os Estados Unidos e URSS, que a internet começou a se desenvolver. Os EUA criaram o sistema de descentralização 
+        de suas informações no Pentágono para evitar que possíveis ataques causassem a perda irreparável de documentos do governo.
+    </p>
+    <p>O engenheiro <b>Joseph Licklider</b> foi o criador da <b>ARPANET</b>, a rede de conexão da <b>DARPA</b>, Agência de Projetos de Pesquisa Avançada dos Estados Unidos.
+        A   primeira conexão estabelecida foi feita em 29/10/1969 entre a Universidade da Califórnia e o Instituto de Pesquisa de Stanford.
+    </p>
+    <blockquote><i>A palavra enviada foi "LOGIN", mas só chegou "LO"</i>.</blockquote>
+    <p>Na década de 70 foram criados os protocolos <b>TCP/IP</b> por <b>Vinton Cerf</b> e <b>Robert Kahn</b>.</p>
+    <p>Em 1889, <b>Tim Berners-Lee</b> viu a oportunidade de unir hipertexto com TCP/IP e criar a <strong>W</strong>orld <strong>W</strong>ide <strong>W</strong>eb.</p>
+    <p>E assim foi criado <u>o primeiro navegador</u>, chamado WorldWideWeb, em 06/08/1991.</p>
+    <br>
+
+    <h2 id="clients">O Que São <i>Clients</i></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <h3>Conceito de <i>Client</i> no "linguajar" Web</h3>
+    <p>Basicamente é o lado do <b>usuário final</b>, onde eu e você, por meio de um navegador, acessamos algo. Pode ser através de um celular, 
+        computador, videogame, etc.
+    </p>
+    
+    <h3>Falando Sobre Navegadores</h3>
+    <p>Também chamados de <b>browsers</b>, são programas criados por empresas, para abrir/executar arquivos. Seguem padrões da <abbr title="Principal organização de 
+        padronização da World Wide Web">W3C</abbr>. Iniciou com o MOSAIC e hoje temos uma variedade de navegadores disponíveis.
+    </p>
+
+    <h3>Aplicações Web</h3>
+    <p>São soluções criadas que possuem a internet como meio de comunicação entre <i>Client</i> x <i>Server</i>, não sendo necessário a instalação na máquina.</p>
+    <br>
+    
+    <h2 id="servers">O Que São <i>Servers</i></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+   
+    <h3>Sobre Servidores</h3>
+    <p>Computador com alta capacidade de processamento que conecta outros computadores através de uma rede, como uma rede local, ou a web de forma geral. Pode ser de
+        <u>arquivos</u>, <u>segurança</u> (Firewall), <u>streaming</u>, <u>e-mail</u>, <u>web</u>. O servidor pode ser pequeno ou até mesmo ocupar grandes salas.
+    </p>
+
+    <h3>Sobre <i>Hardwares</i> e <i>Softwares</i> em Servidores</h3>
+    <p>
+        <b>Softwares utilizados:</b> <u>Sistemas Operacionais</u> (como Windows Server, Ubuntu, CentOS, Fedora, etc), <u>Monitoramento</u> e 
+        <u>Servidores Web</u> (como Apache e NGINX).
+    </p>
+    <p><b>Hardwares utilizados:</b> <u>Armazenamento</u> (discos rígidos, SSDs), <u>Memória</u>, <u>Processadores</u>.</p>
+    <blockquote>O cliente faz a requisição HTTP (protocolo de transferência de hipertexto), que chega ao servidor, e lá o software do servidor devolve 
+        em formato <i>HTML</i>, <i>CSS</i>, <i>Javascript</i>, Imagens, Texto,etc. 
+    </blockquote>
+    
+    <h3>Hospedagem de Sites</h3>
+    <p>Quando contratamos o serviço de hospedagem de sites, estamos contratando um servidor web para disponilizar nosso site ali. Dessa forma, qualquer 
+        um que queira, consigue acessar.
+    </p>
+    <br>
+
+
+    <h2 id="linguagens">Linguagens de Programação</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <h3>O que é Linguagem de Programação</h3>
+    <p>Linguagem de Programação é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (software).</p>
+    <p>5 linguagens mais usadas, segundo RedMonk:
+        <ol>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>C#</li>
+        </ol>
+    </p>
+
+    <h3>Linguagem <i>Server-Side</i></h3>
+    <p>Linguagens executadas no servidor, como PHP, Ruby, C# e Java, e Javascrip.</p>
+    
+    <h3>Linguagem <i>Client-Side</i></h3>
+    <p>São linguagens executadas no lado <i>Client</i>, como Javascript, HTML e CSS. </p>
+    <blockquote>Como assim? Javascrip é executado tanto no lado <i>Client</i> quando no lado <i>Server</i>?</blockquote>
+    <p>Isso mesmo, o Javascript possui uma ramificação que se baseia no interpretador v8 do Google, que pode ser executada no lado servidor, chamada Node.js. </p>
+
+    <h3>Estrutura Básica de um HTML</h3>
+    <p>
+        <ul>
+            <li>O documento deve iniciar com a tag "html", seguida de "head" com o "title" (título da página) e "body", onde ficará o conteúdo da página.</li>
+            <li>Títulos (h1), subtítulos (h2 em diante) e parágrafos (p).</li>
+            <li> <strong>Negrito</strong> (strong ou b), <i>itálico</i> (i), <u>sublinhado</u> (u), <mark>marcado           
+                </mark> (mark), elevar algum caractere<sup>*</sup> (sup, e o caractere).
+            </li>
+            <li>Listas ordenadas com "ol" e não ordenadas com "ul". Cada item da lista recebe a tag "li".</li>
+            <li> A tag "a href="">" serve para colocar links externos (com endereços Web) ou internos (através do id) na página. Os atributo "title" serve para definir
+                um texto a ser exibido ao passar com o mouse no link, e o atributo "target" serve para definir se o link externo será aberto na mesma aba, ou em outra 
+                (com o valor blank).
+            </li>
+        </ul>
+    </p>
+    <p>Para conhecer mais tags e seus usos acesse o site: <a href="https://www.w3schools.com/TAGS/" target="_blank" title="Clique aqui!">w3schools.com/TAGS/</a></p>
+    <br>
+
+    <h2 id="links">Links de Referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+        <li><a href="https://dio.me" target="_blank" title="Clique aqui!">dio.me</a></li>
+        <li><a href="https://w3c.org" target="_blank" title="Clique aqui!">w3c.org</a></li>
+        <li><a href="https://devmedia.com.br/html-basico-codigos-html/16596" target="_blank" title="Clique aqui!">devmedia.com.br/html-basico-codigos-html/16596</a></li>
+    </ul>
+</body>
+</html>
